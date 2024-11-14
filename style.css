@@ -29,22 +29,72 @@ header .logo {
   font-weight: 600;
 }
 
-header ul {
+/* Standard Navbar Links */
+.nav-links {
   list-style: none;
   display: flex;
   gap: 20px;
+  margin-left: auto;
 }
 
-header ul li a {
+.nav-links li a {
   color: #fff;
   text-decoration: none;
   font-weight: 400;
   transition: color 0.3s;
 }
 
-header ul li a:hover {
+.nav-links li a:hover {
   color: #f0a500;
 }
+
+/* Hamburger Icon */
+.hamburger {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hamburger span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  transition: 0.3s;
+}
+
+/* Checkbox to Toggle Menu */
+#menu-toggle {
+  display: none;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  /* Hide the nav links in mobile by default */
+  .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background-color: #333;
+      padding: 20px;
+      border-radius: 10px;
+      width: 150px;
+  }
+
+  /* Show menu when checkbox is checked */
+  #menu-toggle:checked ~ .nav-links {
+      display: flex;
+  }
+
+  /* Show the hamburger icon in mobile */
+  .hamburger {
+      display: flex;
+  }
+}
+
 
 /* Hero Section */
 .hero {
@@ -239,18 +289,6 @@ footer {
   line-height: 1.6;
 }
 
-/* Tag styling for "New" or "Popular" projects */
-.tag {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background-color: #f0a500;
-  color: #fff;
-  padding: 5px 10px;
-  font-size: 0.8em;
-  border-radius: 5px;
-  font-weight: 600;
-}
 
 /* Fade-in animation for project cards */
 .project-card {
@@ -275,4 +313,102 @@ to {
     opacity: 1;
     transform: translateY(0);
 }
+}
+/* Contact Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: auto;
+}
+
+form label {
+  text-align: left;
+  font-weight: 600;
+  color: #333;
+}
+
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+form button {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #f0a500;
+}
+
+/* Video Demo Styling */
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.video-container iframe {
+  width: 100%;
+  max-width: 600px;
+  height: 350px;
+  border-radius: 10px;
+}
+/* Site Report Page Styling */
+.report-page {
+  padding: 60px 20px;
+  text-align: left;
+  max-width: 800px;
+  margin: auto;
+}
+
+.report-page h1, .report-page h2 {
+  color: #333;
+}
+
+.report-page h1 {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.report-page h2 {
+  font-size: 1.8em;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.report-page p, .report-page ul {
+  font-size: 1em;
+  color: #666;
+  line-height: 1.6;
+}
+
+.report-page ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.report-page ul li {
+  margin-bottom: 10px;
+}
+
+/* Image Styling for Report Page */
+.report-image {
+  width: 100%;
+  max-width: 700px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
