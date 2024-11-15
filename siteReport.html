@@ -4,29 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Report</title>
+    <!-- Linking to external CSS for styling and Google Font for consistent typography -->
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Header with Navbar -->
+    <!-- Header Section: Contains the navigation bar -->
     <header>
         <nav>
+            <!-- Logo for branding -->
             <div class="logo">Bikash Tamang</div>
-             <!-- Hamburger Menu Checkbox and Label Structure -->
+            
+            <!-- Hamburger Menu for mobile navigation -->
             <input type="checkbox" id="menu-toggle">
             <label for="menu-toggle" class="hamburger">
                 <span></span>
                 <span></span>
                 <span></span>
             </label>
+            
+            <!-- Navigation links -->
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="project.html">Projects</a></li>
                 <li><a href="siteReport.html">Site Report</a></li>
                 <li><a href="videoDemo.html">Video Demo</a></li>
                 <li><a href="contact.html">Contact</a></li>
-            </ul> 
+            </ul>
         </nav>
     </header>
 
@@ -36,48 +41,48 @@
 
         <!-- Design Choices -->
         <h2>1. Design Choices</h2>
-        <p>The design choices for this project focused on creating a minimalistic, clean layout with a consistent look across all pages. Key choices included:</p>
+        <p>The design of this website focuses on a clean, user-friendly layout and visual consistency.</p>
         <ul>
-            <li><strong>Color Palette:</strong> I chose a grayscale base with accent colors (e.g., orange for hover effects) to create a sophisticated, modern aesthetic. This makes the content stand out without overwhelming the user.</li>
-            <li><strong>Font:</strong> The ‘Poppins’ font was selected for its clean, rounded appearance, which adds to the site’s approachable feel.</li>
-            <li><strong>Navigation Bar:</strong> The navbar is sticky for easy access as the user scrolls, and includes a hamburger menu on mobile, made using CSS-only techniques.</li>
-            <li><strong>Hero Section Animation:</strong> Subtle animations like fade-ins and slide-ups enhance the user experience by adding a dynamic feel without distracting from the content.</li>
-            <li><strong>Responsive Grid Layouts:</strong> Used CSS grid for the project page, ensuring the layout adapts well to different screen sizes.</li>
+            <li><strong>Color Palette:</strong> Minimalistic grayscale with subtle accents for a professional look.</li>
+            <li><strong>Font:</strong> ‘Poppins’ for its modern and approachable aesthetic.</li>
+            <li><strong>Navigation:</strong> Sticky navbar for better usability and a responsive hamburger menu for mobile devices.</li>
+            <li><strong>Animations:</strong> Subtle fade-ins and transitions enhance user engagement without overwhelming.</li>
+            <li><strong>Grid Layout:</strong> Ensures proper alignment and responsiveness across devices.</li>
         </ul>
 
         <!-- Development Challenges -->
         <h2>2. Development Challenges</h2>
-        <p>During development, several challenges arose that required thoughtful solutions:</p>
+        <p>Key challenges faced and solutions implemented:</p>
         <ul>
-            <li><strong>Responsive Layout:</strong> Initially, using fixed pixel values caused overflow on smaller screens. Switching to a flexible grid with `minmax` allowed the layout to adapt automatically, creating a smoother experience on mobile.</li>
-            <li><strong>Mobile Navigation Menu:</strong> Implementing a hamburger menu without JavaScript required experimenting with a hidden checkbox and CSS. Through trial and error, I achieved a clean, functional menu for mobile views.</li>
-            <li><strong>Hover Effects:</strong> Balancing subtle yet noticeable hover effects across all elements involved testing different box shadows and transitions to find the right balance. This allowed the design to feel interactive without being too flashy.</li>
-            <li><strong>Form Validation:</strong> Implementing form validation in the contact page without using JavaScript initially limited user feedback. I opted to use required fields in HTML as a temporary solution, planning to expand with JavaScript validation in the future.</li>
+            <li><strong>Responsive Layout:</strong> Switched to CSS grid with `minmax` for better adaptability on small screens.</li>
+            <li><strong>Mobile Navigation:</strong> Implemented a CSS-only hamburger menu using a hidden checkbox.</li>
+            <li><strong>Hover Effects:</strong> Experimented with box shadows and transitions for balanced interactivity.</li>
+            <li><strong>Form Validation:</strong> HTML required attributes were used as a temporary solution, with plans for JavaScript validation.</li>
         </ul>
 
         <!-- Future Improvements -->
         <h2>3. Future Improvements</h2>
-        <p>Several potential enhancements could further improve this website:</p>
         <ul>
-            <li><strong>Dark Mode Toggle:</strong> Adding a dark mode feature would improve the user experience, especially for those browsing at night. This could be achieved by adding a CSS variable switcher and a JavaScript toggle.</li>
-            <li><strong>Enhanced Project Descriptions:</strong> Expanding each project’s description with a “read more” link or modal would provide more in-depth details without cluttering the page layout.</li>
-            <li><strong>JavaScript Form Validation:</strong> Adding JavaScript-based validation for the contact form to improve user feedback and prevent incomplete submissions.</li>
+            <li><strong>Dark Mode:</strong> Adding a toggle for improved user experience in low-light environments.</li>
+            <li><strong>Project Details:</strong> Including a “read more” link or modal for detailed descriptions.</li>
+            <li><strong>Enhanced Validation:</strong> Implementing JavaScript form validation for more robust user feedback.</li>
         </ul>
 
-        <!-- Suggested Images Section -->
-        <h2>3. Validation Images</h2>
+        <!-- Validation Images Section -->
+        <h2>4. Validation Images</h2>
         <ul>
-            <li><strong>Validation Reports:</strong> HTML and CSS validation screenshots, showing that the code meets W3C standards, reinforcing the project’s quality and adherence to best practices.
-                <!-- Placeholder for Validation Reports -->
-                <img src="html-validation.png" alt="HTML Validation Report" class="report-image">
-                <img src="css-validation.png" alt="CSS Validation Report" class="report-image">
-            </li>
+            <li><strong>HTML and CSS Validation:</strong> Screenshots of validation reports to showcase compliance with W3C standards.</li>
+            <li><img src="index-validation.png" alt="HTML Validation Report" class="report-image"></li>
+            <li><img src="project-validation.png" alt="HTML Validation Report" class="report-image"></li>
+            <li><img src="report-validation.png" alt="HTML Validation Report" class="report-image"></li>
+            <li><img src="contact-validation.png" alt="HTML Validation Report" class="report-image"></li>
+            <li><img src="video-validation.png" alt="HTML Validation Report" class="report-image"></li>
+            <li><img src="css-validation.png" alt="CSS Validation Report" class="report-image"></li>
         </ul>
 
         <!-- Conclusion -->
-        <h2>6. Conclusion</h2>
-        <p>Building this portfolio site was a valuable learning experience, enabling me to practice responsive design, CSS animations, and creating a clean, professional layout. Through the challenges faced, I developed a greater understanding of front-end design and CSS techniques, and I’m excited to continue enhancing this site with future improvements. This project serves as a foundation for showcasing my skills and growth as a developer.</p>
-
+        <h2>5. Conclusion</h2>
+        <p>This project helped me learn responsive design, CSS animations, and the importance of usability. It serves as a portfolio piece and foundation for future projects.</p>
     </section>
 
     <!-- Footer Section -->
