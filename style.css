@@ -18,59 +18,59 @@ body {
 header {
   background-color: #333; /* Dark background for contrast with page content. */
   color: #fff; /* Light text color for readability on a dark background. */
-  padding: 15px 20px; /* Adds space for content in the header. */
+  padding: 15px 20px; /* Adds space for content in   header. */
   display: flex; /* Aligns child elements horizontally. */
-  justify-content: space-between; /* Distributes space between logo and nav links. */
-  align-items: center; /* Centers items vertically within the header. */
-  position: sticky; /* Keeps the header fixed at the top during scrolling. */
-  top: 0; /* Positions the sticky header at the top of the viewport. */
-  z-index: 1000; /* Ensures the header remains above other elements. */
+  justify-content: space-between; /* Distributes space between lo_g_o_bikash and nav links. */
+  align-items: center; /* Centers items vertically within   header. */
+  position: sticky; /* Keeps   header fixed at   top during scrolling. */
+  top: 0; /* Positions   sticky header at   top of   viewport. */
+  z-index: 1000; /* Ensures   header remains above o r elements. */
 }
 
-header .logo {
-  font-size: 1.5em; /* Increases logo text size for emphasis. */
+header .lo_g_o_bikash {
+  font-size: 1.5em; /* Increases lo_g_o_bikash text size for emphasis. */
   font-weight: 600; /* Semi-bold font weight for visibility. */
 }
 
 /* Navigation links styled for usability and clean appearance. */
-.nav-links {
+.li_inks_to_nav_igate {
   list-style: none; /* Removes default list styling. */
   display: flex; /* Aligns links horizontally. */
   gap: 20px; /* Adds spacing between links for clarity. */
-  margin-left: auto; /* Pushes links to the right of the header. */
+  margin-left: auto; /* Pushes links to   right of   header. */
 }
 
-.nav-links li a {
-  color: #fff; /* Matches the header text color. */
+.li_inks_to_nav_igate li a {
+  color: #fff; /* Matches   header text color. */
   text-decoration: none; /* Removes underline for a cleaner look. */
   font-weight: 400; /* Standard font weight for links. */
   transition: color 0.3s; /* Adds a smooth color transition on hover. */
 }
 
-.nav-links li a:hover {
+.li_inks_to_nav_igate li a:hover {
   color: #f0a500; /* Accent color to indicate hover state. */
 }
 
-/* Hamburger Menu */
+/* ha_mbu_ger Menu */
 /* Hidden by default on larger screens, displayed for mobile navigation. */
-.hamburger {
+.ha_mbu_ger {
   display: none; /* Hidden for larger screens. */
   cursor: pointer; /* Indicates interactivity. */
-  flex-direction: column; /* Stacks the lines vertically. */
-  gap: 5px; /* Adds spacing between the hamburger lines. */
+  flex-direction: column; /* Stacks   lines vertically. */
+  gap: 5px; /* Adds spacing between   ha_mbu_ger lines. */
 }
 
-.hamburger span {
-  display: block; /* Ensures the lines are visible. */
+.ha_mbu_ger span {
+  display: block; /* Ensures   lines are visible. */
   width: 25px; /* Standard size for consistency. */
   height: 3px; /* Thin lines for a modern design. */
-  background-color: #fff; /* Matches the header text color. */
+  background-color: #fff; /* Matches   header text color. */
   transition: 0.3s; /* Smooth transitions for interactivity. */
 }
 
 /* Checkbox to Toggle Menu */
-/* Used for toggling the visibility of the menu in mobile view. */
-#menu-toggle {
+/* Used for toggling   visibility of   menu in mobile view. */
+#ham_menu_toggle_Box {
   display: none; /* Hidden checkbox to trigger mobile menu. */
 }
 
@@ -78,36 +78,36 @@ header .logo {
 /* Adapts layout for smaller screens, improving usability. */
 @media (max-width: 768px) {
   /* Hides navigation links by default on smaller screens. */
-  .nav-links {
+  .li_inks_to_nav_igate {
       display: none; /* Hidden unless triggered. */
       flex-direction: column; /* Stacks links vertically. */
-      position: absolute; /* Positioned relative to the parent. */
-      top: 60px; /* Aligns below the header. */
-      right: 20px; /* Aligns with the header's right edge. */
-      background-color: #333; /* Matches the header background. */
+      position: absolute; /* Positioned relative to   parent. */
+      top: 60px; /* Aligns below   header. */
+      right: 20px; /* Aligns with   header's right edge. */
+      background-color: #333; /* Matches   header background. */
       padding: 20px; /* Adds spacing for touch-friendly links. */
       border-radius: 10px; /* Rounded corners for a modern look. */
       width: 150px; /* Fixed width for a consistent appearance. */
   }
 
-  /* Displays the navigation links when the checkbox is checked. */
-  #menu-toggle:checked ~ .nav-links {
-      display: flex; /* Shows the menu links. */
+  /* Displays   navigation links when   checkbox is checked. */
+  #ham_menu_toggle_Box:checked ~ .li_inks_to_nav_igate {
+      display: flex; /* Shows   menu links. */
   }
 
-  /* Displays the hamburger menu for mobile navigation. */
-  .hamburger {
-      display: flex; /* Makes the hamburger menu visible. */
+  /* Displays   ha_mbu_ger menu for mobile navigation. */
+  .ha_mbu_ger {
+      display: flex; /* Makes   ha_mbu_ger menu visible. */
   }
 }
 
 /* Hero Section */
-/* Introduces the site with a visually appealing banner. */
+/* Introduces   site with a visually appealing banner. */
 .hero {
   display: flex; /* Aligns content horizontally. */
   align-items: center; /* Centers items vertically. */
   justify-content: center; /* Centers items horizontally. */
-  padding: 50px 20px; /* Adds space around the content. */
+  padding: 50px 20px; /* Adds space around   content. */
   background-image: linear-gradient(to right, #f0f0f0, #e0e0e0); /* Subtle gradient for visual interest. */
 }
 
@@ -127,27 +127,27 @@ header .logo {
 
 .hero h1 {
   font-size: 3em; /* Large text for emphasis. */
-  margin-bottom: 10px; /* Adds spacing below the heading. */
+  margin-bottom: 10px; /* Adds spacing below   heading. */
 }
 
 .hero p {
-  font-size: 1.2em; /* Larger font for emphasis on the introductory message. */
+  font-size: 1.2em; /* Larger font for emphasis on   introductory message. */
   color: #666; /* Subdued text color for secondary content. */
-  margin-bottom: 20px; /* Adds spacing below the paragraph. */
+  margin-bottom: 20px; /* Adds spacing below   paragraph. */
 }
 
-/* Adds visual appeal to the hero image. */
-.hero-image img {
+/* Adds visual appeal to   hero image. */
+.bik_as_image img {
   width: 300px; /* Standard size for consistency. */
   height: 300px; /* Ensures a square aspect ratio. */
-  border-radius: 50%; /* Circular image for a friendly aesthetic. */
-  object-fit: cover; /* Ensures the image fills its container. */
-  border: 5px solid #333; /* Adds a border matching the header. */
+  border-radius: 50%; /* Circular image for a friendly aes tic. */
+  object-fit: cover; /* Ensures   image fills its container. */
+  border: 5px solid #333; /* Adds a border matching   header. */
   animation: fadeInUp 2s; /* Smooth upward fade-in animation. */
 }
 
 /* Buttons for interactive elements, styled consistently. */
-.btn {
+.re_dire_but_on {
   padding: 10px 20px; /* Adds padding for touch-friendly size. */
   background-color: #333; /* Dark background for strong contrast. */
   color: #fff; /* Light text for readability. */
@@ -157,29 +157,29 @@ header .logo {
   transition: background-color 0.3s; /* Smooth hover transition. */
 }
 
-.btn:hover {
+.re_dire_but_on:hover {
   background-color: #f0a500; /* Highlight color for hover state. */
 }
 
 
 /* Project Section */
-/* Styles for the project section layout and design. */
-section#projects {
-  padding: 60px 20px; /* Adds space around the project section. */
-  text-align: center; /* Centers the text. */
+/* Styles for   project section layout and design. */
+section#sec_pto_jects_index {
+  padding: 60px 20px; /* Adds space around   project section. */
+  text-align: center; /* Centers   text. */
 }
 
 h2 {
   font-size: 2.5em; /* Larger text for project section heading. */
-  margin-bottom: 20px; /* Adds space below the heading. */
+  margin-bottom: 20px; /* Adds space below   heading. */
 }
 
-/* Grid layout for the project items. */
+/* Grid layout for   project items. */
 .project-grid {
-  display: grid; /* Uses a grid layout for projects. */
+  display: grid; /* Uses a grid layout for sec_pto_jects_index. */
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid with flexible columns. */
   gap: 20px; /* Adds spacing between project items. */
-  margin-top: 20px; /* Adds spacing above the project items. */
+  margin-top: 20px; /* Adds spacing above   project items. */
 }
 
 /* Individual project item styles. */
@@ -206,17 +206,17 @@ h2 {
 }
 
 /* Footer */
-/* Footer styles for the bottom section of the page. */
+/* Footer styles for   bottom section of   page. */
 footer {
   background-color: #333; /* Dark footer background. */
   color: #fff; /* Light text for readability. */
-  text-align: center; /* Centers the footer text. */
+  text-align: center; /* Centers   footer text. */
   padding: 10px 0; /* Adds padding for spacing. */
-  margin-top: 50px; /* Adds space above the footer. */
+  margin-top: 50px; /* Adds space above   footer. */
 }
 
 /* Animations */
-/* These keyframes provide fade-in and fade-up animations for a smooth appearance of elements. */
+/*  se keyframes provide fade-in and fade-up animations for a smooth appearance of elements. */
 @keyframes fadeIn {
   0% {
       opacity: 0; /* Elements start fully transparent. */
@@ -228,8 +228,8 @@ footer {
 
 @keyframes fadeInUp {
   0% {
-      opacity: 0; /* Starts with the element being transparent. */
-      transform: translateY(20px); /* Elements start slightly below their final position. */
+      opacity: 0; /* Starts with   element being transparent. */
+      transform: translateY(20px); /* Elements start slightly below  ir final position. */
   }
   100% {
       opacity: 1; /* Elements become fully visible. */
@@ -237,37 +237,37 @@ footer {
   }
 }
 /* Projects Page Styling */
-/* Page-specific styling for the project list page. */
-.projects-page {
-  padding: 60px 20px; /* Adds space around the projects page content. */
-  text-align: center; /* Centers the page content. */
-  max-width: 1000px; /* Limits the content width for readability. */
-  margin: auto; /* Centers the content horizontally within the page. */
+/* Page-specific styling for   project list page. */
+.sec_pto_jects_index-page {
+  padding: 60px 20px; /* Adds space around   sec_pto_jects_index page content. */
+  text-align: center; /* Centers   page content. */
+  max-width: 1000px; /* Limits   content width for readability. */
+  margin: auto; /* Centers   content horizontally within   page. */
 }
 
-.projects-page h1 {
-  font-size: 2.5em; /* Large heading for the projects page. */
-  color: #333; /* Dark color for the heading for visibility. */
-  margin-bottom: 10px; /* Adds space below the heading. */
+.sec_pto_jects_index-page h1 {
+  font-size: 2.5em; /* Large heading for   sec_pto_jects_index page. */
+  color: #333; /* Dark color for   heading for visibility. */
+  margin-bottom: 10px; /* Adds space below   heading. */
 }
 
-.projects-page p {
-  font-size: 1.1em; /* Slightly larger font for readability in the paragraph. */
-  color: #666; /* Subdued color for the text. */
-  margin-bottom: 30px; /* Adds spacing below the paragraph. */
+.sec_pto_jects_index-page p {
+  font-size: 1.1em; /* Slightly larger font for readability in   paragraph. */
+  color: #666; /* Subdued color for   text. */
+  margin-bottom: 30px; /* Adds spacing below   paragraph. */
   line-height: 1.6; /* Improves readability with extra line spacing. */
 }
 
 /* Project List Styling */
-/* Defines the layout of the project list using a responsive grid system. */
+/* Defines   layout of   project list using a responsive grid system. */
 .project-list {
   display: grid; /* Uses grid for layout. */
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Automatically adjusts the number of columns. */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Automatically adjusts   number of columns. */
   gap: 20px; /* Adds space between project cards. */
 }
 
-/* Individual project card styling within the list. */
-.project-card {
+/* Individual project card styling within   list. */
+.pro_card_ject_page {
   background-color: #fff; /* White background for project cards. */
   padding: 20px; /* Adds spacing within each project card. */
   border-radius: 10px; /* Rounded corners for a modern, friendly look. */
@@ -276,62 +276,62 @@ footer {
   text-decoration: none; /* Removes underline from links. */
   color: #333; /* Dark text color for contrast and readability. */
   position: relative; /* Allows for overlay or absolute positioning if needed. */
-  overflow: hidden; /* Ensures content doesn't overflow the card's borders. */
+  overflow: hidden; /* Ensures content doesn't overflow   card's borders. */
 }
 
-.project-card:hover {
+.pro_card_ject_page:hover {
   transform: translateY(-5px); /* Slight lift effect on hover. */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Darker shadow for more depth on hover. */
   background-color: #f0f0f0; /* Light background change on hover for interaction feedback. */
 }
 
-.project-card img {
-  width: 100%; /* Makes the image fit the full width of the card. */
+.pro_card_ject_page img {
+  width: 100%; /* Makes   image fit   full width of   card. */
   height: 150px; /* Sets a fixed height for consistency. */
-  object-fit: cover; /* Ensures the image fills its container without distortion. */
-  border-radius: 8px; /* Rounds corners of the image for a consistent look. */
-  margin-bottom: 15px; /* Adds space below the image. */
+  object-fit: cover; /* Ensures   image fills its container without distortion. */
+  border-radius: 8px; /* Rounds corners of   image for a consistent look. */
+  margin-bottom: 15px; /* Adds space below   image. */
 }
 
-.project-card h3 {
+.pro_card_ject_page h3 {
   font-size: 1.5em; /* Larger font size for project titles. */
   color: #333; /* Dark text for visibility. */
-  margin-bottom: 10px; /* Adds space below the title. */
+  margin-bottom: 10px; /* Adds space below   title. */
 }
 
-.project-card p {
+.pro_card_ject_page p {
   font-size: 1em; /* Standard font size for project descriptions. */
   color: #666; /* Slightly lighter text color for secondary content. */
   line-height: 1.6; /* Improved readability with more line spacing. */
 }
 
 /* Fade-in animation for project cards */
-/* Ensures that each project card fades in as it enters the viewport. */
-.project-card {
+/* Ensures that each project card fades in as it enters   viewport. */
+.pro_card_ject_page {
   opacity: 0; /* Initially invisible. */
   animation: fadeIn 0.5s ease-in-out forwards; /* Smooth fade-in effect. */
 }
 
 /* Staggered fade-in animation for each project card */
-/* Delays the fade-in animation for each card, creating a staggered effect. */
-.project-card:nth-child(1) { animation-delay: 0.1s; }
-.project-card:nth-child(2) { animation-delay: 0.2s; }
-.project-card:nth-child(3) { animation-delay: 0.3s; }
-.project-card:nth-child(4) { animation-delay: 0.4s; }
-.project-card:nth-child(5) { animation-delay: 0.5s; }
+/* Delays   fade-in animation for each card, creating a staggered effect. */
+.pro_card_ject_page:nth-child(1) { animation-delay: 0.1s; }
+.pro_card_ject_page:nth-child(2) { animation-delay: 0.2s; }
+.pro_card_ject_page:nth-child(3) { animation-delay: 0.3s; }
+.pro_card_ject_page:nth-child(4) { animation-delay: 0.4s; }
+.pro_card_ject_page:nth-child(5) { animation-delay: 0.5s; }
 
 /* Contact Form Styling */
-/* Ensures that the form is user-friendly and visually appealing. */
+/* Ensures that   form is user-friendly and visually appealing. */
 form {
   display: flex; /* Aligns form elements vertically. */
   flex-direction: column; /* Stacks form elements in a column. */
   gap: 15px; /* Adds space between form elements for usability. */
-  max-width: 500px; /* Limits the width of the form for a neat layout. */
-  margin: auto; /* Centers the form horizontally on the page. */
+  max-width: 500px; /* Limits   width of   form for a neat layout. */
+  margin: auto; /* Centers   form horizontally on   page. */
 }
 
 form label {
-  text-align: left; /* Aligns the label to the left for clarity. */
+  text-align: left; /* Aligns   label to   left for clarity. */
   font-weight: 600; /* Semi-bold text for labels for emphasis. */
   color: #333; /* Dark color for labels for visibility. */
 }
@@ -344,13 +344,13 @@ form input, form textarea {
 }
 
 form button {
-  padding: 10px; /* Adds padding inside the button for touch accessibility. */
-  background-color: #333; /* Dark background for the button. */
+  padding: 10px; /* Adds padding inside   button for touch accessibility. */
+  background-color: #333; /* Dark background for   button. */
   color: #fff; /* White text for readability. */
   border: none; /* Removes default button border. */
-  font-size: 1em; /* Standard font size for the button. */
-  border-radius: 5px; /* Rounded corners for the button. */
-  cursor: pointer; /* Indicates the button is clickable. */
+  font-size: 1em; /* Standard font size for   button. */
+  border-radius: 5px; /* Rounded corners for   button. */
+  cursor: pointer; /* Indicates   button is clickable. */
   transition: background-color 0.3s; /* Smooth transition for hover effect. */
 }
 
@@ -359,67 +359,67 @@ form button:hover {
 }
 
 /* Video Demo Styling */
-/* Makes the video container responsive and centered. */
-.video-container {
-  display: flex; /* Aligns the video element horizontally. */
-  justify-content: center; /* Centers the video within its container. */
-  margin-top: 20px; /* Adds space above the video container. */
+/* Makes   video container responsive and centered. */
+.video_demo_link {
+  display: flex; /* Aligns   video element horizontally. */
+  justify-content: center; /* Centers   video within its container. */
+  margin-top: 20px; /* Adds space above   video container. */
 }
 
-.video-container iframe {
-  width: 100%; /* Makes the video responsive to container width. */
-  max-width: 600px; /* Limits the max width of the video for consistency. */
+.video_demo_link iframe {
+  width: 100%; /* Makes   video responsive to container width. */
+  max-width: 600px; /* Limits   max width of   video for consistency. */
   height: 350px; /* Fixed height for video elements. */
-  border-radius: 10px; /* Rounded corners for the video iframe. */
+  border-radius: 10px; /* Rounded corners for   video iframe. */
 }
 
 /* Site Report Page Styling */
-/* Defines the layout and typography for the report page. */
-.report-page {
-  padding: 60px 20px; /* Adds space around the content. */
-  text-align: left; /* Aligns content to the left for a formal report. */
-  max-width: 800px; /* Limits the content width for readability. */
-  margin: auto; /* Centers the content horizontally. */
+/* Defines   layout and typography for   report page. */
+.re_po_rt_page_content {
+  padding: 60px 20px; /* Adds space around   content. */
+  text-align: left; /* Aligns content to   left for a formal report. */
+  max-width: 800px; /* Limits   content width for readability. */
+  margin: auto; /* Centers   content horizontally. */
 }
 
-.report-page h1, .report-page h2 {
+.re_po_rt_page_content h1, .re_po_rt_page_content h2 {
   color: #333; /* Dark color for headings for visibility. */
 }
 
-.report-page h1 {
-  font-size: 2.5em; /* Larger heading for the report title. */
-  text-align: center; /* Centers the main report title. */
-  margin-bottom: 20px; /* Adds spacing below the heading. */
+.re_po_rt_page_content h1 {
+  font-size: 2.5em; /* Larger heading for   report title. */
+  text-align: center; /* Centers   main report title. */
+  margin-bottom: 20px; /* Adds spacing below   heading. */
 }
 
-.report-page h2 {
+.re_po_rt_page_content h2 {
   font-size: 1.8em; /* Slightly smaller heading for subheadings. */
   margin-top: 30px; /* Adds space above subheadings. */
   margin-bottom: 10px; /* Adds space below subheadings. */
 }
 
-.report-page p, .report-page ul {
+.re_po_rt_page_content p, .re_po_rt_page_content ul {
   font-size: 1em; /* Standard font size for paragraph text. */
   color: #666; /* Slightly lighter text color for readability. */
   line-height: 1.6; /* Increased line height for better readability. */
 }
 
-.report-page ul {
+.re_po_rt_page_content ul {
   padding-left: 20px; /* Adds padding for list items. */
-  list-style-type: disc; /* Defines the list style. */
+  list-style-type: disc; /* Defines   list style. */
 }
 
-.report-page ul li {
+.re_po_rt_page_content ul li {
   margin-bottom: 10px; /* Adds space between list items. */
 }
 
 /* Image Styling for Report Page */
-/* Styles images for the report page. */
+/* Styles images for   report page. */
 .report-image {
-  width: 100%; /* Ensures images fill their container width. */
-  max-width: 700px; /* Limits the maximum width of images. */
-  display: block; /* Ensures the image behaves as a block-level element. */
-  margin: 20px auto; /* Centers the image horizontally with space above and below. */
+  width: 100%; /* Ensures images fill  ir container width. */
+  max-width: 700px; /* Limits   maximum width of images. */
+  display: block; /* Ensures   image behaves as a block-level element. */
+  margin: 20px auto; /* Centers   image horizontally with space above and below. */
   border-radius: 8px; /* Rounded corners for images. */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth. */
 }
