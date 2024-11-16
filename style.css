@@ -51,7 +51,7 @@ header .lo_g_o_bikash {
   color: #f0a500; /* Accent color to indicate hover state. */
 }
 
-/* ha_mbu_ger Menu */
+/* Hamburger Menu */
 /* Hidden by default on larger screens, displayed for mobile navigation. */
 .ha_mbu_ger {
   display: none; /* Hidden for larger screens. */
